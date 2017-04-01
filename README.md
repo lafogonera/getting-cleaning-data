@@ -1,4 +1,4 @@
-# getting-cleaning-data final proyect
+# getting-cleaning-data 
 
 ## run_analysis.R
 This is the script that does the following. 
