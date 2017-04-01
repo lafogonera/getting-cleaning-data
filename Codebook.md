@@ -8,6 +8,9 @@
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 
 The complete list of variables:
+
+_ _ _
+
  [1] "activity"                                     
  [2] "subjectID"                                    
  [3] "timeBodyAccelerometerMeanX"                   
