@@ -1,5 +1,10 @@
 # getting-cleaning-data 
 
+## Files in the repository
+- readme.md (this file)
+- run_analysis.R ( R script )
+- codebook.md ( codebook for the variables of the resulting dataframe )
+
 ## run_analysis.R
 This is the script that does the following. 
 
