@@ -1,18 +1,25 @@
 - The experiments have been carried out with a group of 30 volunteers (`subjectID`) within an age bracket of 19-48 years. Each person performed six activities (`WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`)
 - The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccelerometer-XYZ and timeGyroscope-XYZ.
 - The sensor signals (**accelerometer** and **gyroscope**) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the **time** and **frequency** domain.
-- The variables have **descriptive names**
+- The variables have **descriptive names**. We have avoided all names lowercase as they compose words.
 - Time domain signals (prefix **time**)
 - Frecuency domain signals (prefix **frequency**)
 - These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 
+
+The file with the data is `assignment.txt`.
+The data is groyped by `activity` and by `subjectID`. As we have 6 activities and 30 subjects, **the dimensions of the file is 180 rows and 81 columns** We have 79 columns refering to variables with mean or std, plus the activiy and subjectID variables.
 The complete list of variables:
 
 _ _ _
 
- [1] "activity"                                     
- [2] "subjectID"                                    
+ [1] "activity"
+ 	each person performed six activities
+    `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
+ [2] "subjectID"
+ 	30 volunteers: 
+    	ids from `1` to `30`
  [3] "timeBodyAccelerometerMeanX"                   
  [4] "timeBodyAccelerometerMeanY"                   
  [5] "timeBodyAccelerometerMeanZ"                   

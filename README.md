@@ -61,6 +61,9 @@ The script defines four helper functions
 - Makes a summary of the averages of this variables grouping by activity and subject.
 - Stores the result on a file named **assignment.txt**
 - To load this file make, `myVar <- read.table("assignment.txt", header=TRUE)`
+- The file **assignment.txt** dimension is 180 rows and 81 columns.
+	- the file is grouped by `activity` (6 values, `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`)  and by `subjectID` ( 30 values, from `1` to `30`), thus, 6x30 = 180 rows
+	- The file has 79 columns related to means or standard deviation, plus the activity and the subjectId columns. (total 81) 
 
 ### Instruction list
 - load `run_analysis.R`
