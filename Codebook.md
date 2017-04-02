@@ -17,6 +17,7 @@ _ _ _
  [1] "activity"
  	each person performed six activities
     `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
+    
  [2] "subjectID"
  	30 volunteers: 
     	ids from `1` to `30`
