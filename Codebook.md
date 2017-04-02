@@ -9,17 +9,18 @@
 
 
 The file with the data is `assignment.txt`.
-The data is groyped by `activity` and by `subjectID`. As we have 6 activities and 30 subjects, **the dimensions of the file is 180 rows and 81 columns** We have 79 columns refering to variables with mean or std, plus the activiy and subjectID variables.
+**The data is grouped by `activity` and by `subjectID`**. As we have 6 activities and 30 subjects, **the dimensions of the file is 180 rows and 81 columns** We have 79 columns refering to variables with mean or std, plus the activiy and subjectID variables. **All variables have been summarize by mean**
 The complete list of variables:
 
+_ _ _
+### Grouping variables
  [1] "activity"
  	each person performed six activities
     `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
-    
  [2] "subjectID"
  	30 volunteers: 
     	ids from `1` to `30`
-
+###  Variables summarized by mean
  [3] "timeBodyAccelerometerMeanX"                   
  [4] "timeBodyAccelerometerMeanY"                   
  [5] "timeBodyAccelerometerMeanZ"                   
@@ -99,4 +100,3 @@ The complete list of variables:
 [79] "frecuencyBodyBodyGyroscopeJerkMagMean"        
 [80] "frecuencyBodyBodyGyroscopeJerkMagStd"         
 [81] "frecuencyBodyBodyGyroscopeJerkMagMeanFreq" 
-
