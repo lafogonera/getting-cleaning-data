@@ -1,7 +1,5 @@
 # getting-cleaning-data 
 
-[TOC]
-
 
 
 ## Files in the repository
