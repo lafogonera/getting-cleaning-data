@@ -1,5 +1,9 @@
 # getting-cleaning-data 
 
+[TOC]
+
+
+
 ## Files in the repository
 - readme.md (this file)
 - run_analysis.R ( R script )
@@ -66,7 +70,9 @@ The script defines four helper functions
 	- The file has 79 columns related to means or standard deviation, plus the activity and the subjectId columns. (total 81) 
 
 ### Instruction list
-- load `run_analysis.R`
+- load `run_analysis.R` into the root of your working directory
+- The file assumes that you have a folder `UCI HAR Dataset` also in the root of your working directory.
+- If you have another configuration, modify the `folderPath` variable in line 5 of the `run_analysis.R` file
 - Run the script
 - The script stores a file in your working directory named **assignment.txt**
 - load this file by making, `myVar <- read.table("assignment.txt", header=TRUE)`
